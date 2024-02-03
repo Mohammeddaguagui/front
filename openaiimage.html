@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Images Generator</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        .row {
+            margin-top: 30px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        .input-group {
+            margin-top: 20px;
+        }
+
+        .form-control {
+            border-radius: 0;
+        }
+
+        .btn-primary {
+            background-color: #28a745;
+            border: none;
+            border-radius: 0;
+        }
+
+        .btn-primary:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="mb-4">AI Images Generator</h2>
+       
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <img src="kitty-cat-kitten-pet-45201.jpeg" alt="Image 1" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="kitty-cat-kitten-pet-45201.jpeg" alt="Image 2" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="kitty-cat-kitten-pet-45201.jpeg" alt="Image 3" class="img-fluid">
+            </div>
+        </div>
+  
+
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="cat">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button">Generate</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
